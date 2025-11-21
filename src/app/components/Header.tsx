@@ -2,7 +2,7 @@ import Navigation from './Navigation';
 
 const Header = () => {
   return (
-    <header className='flex justify-between p-3'>
+    <header>
       <h1>My site</h1>
       <Navigation />
     </header>

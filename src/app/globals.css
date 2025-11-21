@@ -25,9 +25,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  background-color: white;
+  color: #0a0a0a;
+  min-height: calc(100vh - 170px);
+  position: relative;
+}
+
 section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  padding: 2em;
+  width: 100%;
 }
